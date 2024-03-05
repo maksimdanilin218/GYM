@@ -1,0 +1,166 @@
+.button1{
+    transition: all 0.5s;
+
+}
+.button1:hover {
+    letter-spacing: 1px;
+    color: coral;
+}
+.button1:last-child{
+    border-style: solid;
+    border-radius: 1px;
+}
+/*get start button*/
+.get__start{
+    transition: all 0.5s;
+}
+.get__start:hover{
+    letter-spacing: 1px;
+    color: black;
+}
+/*watch button*/
+.watch__reviews{
+    transition: all, 0.5s;
+}
+.watch__reviews:hover{
+    letter-spacing: 1px;
+    color: coral;
+}
+/*select plan button*/
+.plan__href {
+    margin-top: 20px;
+    margin-left: 80px;
+    padding-right: 30px;
+}
+.plan__a {
+    padding: 10px 20px;
+    color: aliceblue;
+    width: 200px;
+    height: 40px;
+    font-family: sans-serif;
+    text-decoration: none;
+    border: 2px solid coral;
+    text-align: center;
+    transition: all 0.5s;
+}
+.plan__a:hover{
+    letter-spacing: 1px;
+    color: coral;
+}
+/*buttom see more benifits*/
+.button3 {
+    margin-left: 150px;
+
+}
+.btn__see__more {
+    background-color: coral;
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.see__more {
+    color: aliceblue;
+    margin: 30px;
+    font-family: "Lucida Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.see__more:hover{
+    letter-spacing: 1px;
+    color: black;
+}
+/*button company*/
+.li__com{
+    transition: all 0.3s;
+}
+.li__com:hover{
+    color: coral;
+}
+.a__comp{
+    transition: all 0.3s;
+}
+.a__comp:hover{
+    color: coral;
+}
+/*button contact*/
+.li__con{
+    transition: all 0.3s;
+}
+.li__con:hover{
+    color: coral;
+}
+.a__con{
+    transition: all 0.3s;
+}
+.a__con:hover{
+    color: coral;
+}
+/*button more*/
+.li__more{
+    transition: all 0.3s;
+}
+.li__more:hover{
+    color: coral;
+}
+.a__more{
+    transition: all 0.3s;
+}
+.a__more:hover{
+    color: coral;
+}
+/*button tag*/
+
+.li__tag-1:hover{
+    background-color: coral;
+}
+.li__tag-2:hover {
+    background-color: coral;
+}
+.li__tag-3:hover {
+    background-color: coral;
+}
+.li__tag-4:hover {
+    background-color: coral;
+}
+.li__tag-5:hover {
+    background-color: coral;
+}
+.li__tag-6:hover {
+    background-color: coral;
+}
+.li__tag-7:hover {
+    background-color: coral;
+}
+.li__tag-8:hover {
+    background-color: coral;
+}
+/*Sport Pit botton*/
+.new__text{
+    transition: all 0.5s;
+}
+.new__text:hover{
+    color: black;
+}
+.buy_product{
+    transition: all 0.5s;
+}
+.buy_product:hover{
+    color: black;
+}
+.buy_product2{
+    transition: all 0.5s;
+}
+.buy_product2:hover{
+    color: black;
+}
+.buy_product3{
+    transition: all 0.5s;
+}
+.buy_product3:hover{
+    color: black;
+}

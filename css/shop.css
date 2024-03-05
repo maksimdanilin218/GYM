@@ -1,0 +1,336 @@
+body{
+    font-family: "Lucida Sans";
+    
+    background-repeat: no-repeat;
+    background-color: black;
+}
+/*Заголовок с мень и логотипом*/
+.header{
+    background-image: url(../img/header_foto.png);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    min-height: 1000px;
+    
+}
+.header__title{
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.btn {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(5 ,1fr);
+    align-content: center;
+    width: 700px;
+    height: 50px;
+    margin-right: 30px;
+}
+.button1 {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 24px;
+    border-color: coral;
+}
+.button1:last-child{
+    padding: 5px 20px;
+}
+/*Заголовок с новинками*/
+.zag {
+}
+.h1_zag {
+    font-size: 34px;
+    font-family: "Lucida Sans";
+    margin-top: 150px;
+    margin-left: 90px;
+    width: 450px;
+    height: 150px;
+    color: aliceblue;
+}
+.sport_pit{
+    color: chocolate;
+}
+.button_new {
+    border-radius: 5px;
+    margin-left: 90px;
+    width: 210px;
+    height: 55px;
+    background-color: coral;
+}
+.new__text{
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Lucida Sans";
+    font-size: 18px;
+    padding: 15px 18px 15px 18px;
+}
+/*Раздел со спорт питом*/
+.grid_product {
+    margin-top: 150px;
+    width: 1000px;
+    height: 460px;
+    margin-left: 300px;
+    background-image: url(../img/product_bgi2.jpg);
+    border-style: inset;
+    border-color: gray;
+}
+.catalog{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.grit_text {
+}
+.h1_sales {
+    font-family: "Lucida Sans";
+    padding-left: 380px;
+    font-size: 32px;
+    color: aliceblue;
+}
+.product {
+    margin-top: 50px;
+    margin-left: 50px;
+    border-style: solid;
+    border-color: coral;
+    width: 200px;
+    height: 290px;
+}
+.a_product {
+    display: block;
+    padding-top: 10px;
+}
+
+.name_product {
+    padding-left: 20px;
+    color: aliceblue;
+}
+.tip_product {
+    padding-left: 20px;
+    color: aliceblue;
+}
+.sale_product {
+    display: flex;
+    padding-left: 20px;
+}
+.price_product {
+    margin-top: 10px;
+    color: aliceblue;
+}
+.botton_buy{
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.buy_product {
+    width: 40px;
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    padding-left: 20px;
+    padding: 5px 15px 5px;
+    display: block;
+    background-color: coral;
+    border-radius: 5px;
+}
+/*creatine*/
+.product2 {
+    margin-top: 50px;
+    margin-left: 50px;
+    border-style: solid;
+    border-color: coral;
+    width: 200px;
+    height: 290px;
+}
+.a_product2 {
+    display: block;
+}
+.img_product2 {
+    height: 150px;
+    padding-left: 30px;
+}
+.name_product2 {
+    padding-left: 20px;
+    color: aliceblue;
+}
+.tip_product2 {
+    padding-left: 20px;
+    color: aliceblue;
+}
+.sale_product2 {
+    display: flex;
+    padding-left: 20px;
+}
+.price_product2 {
+    margin-top: 10px;
+    color: aliceblue;
+}
+.botton_buy2 {
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.buy_product2 {
+    width: 40px;
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    padding-left: 20px;
+    padding: 5px 15px 5px;
+    display: block;
+    background-color: coral;
+    border-radius: 5px;
+}
+/*bcaa*/
+.product3 {
+    margin-top: 50px;
+    margin-left: 50px;
+    border-style: solid;
+    border-color: coral;
+    width: 200px;
+    height: 290px;
+}
+.a_product3 {
+    display: block;
+}
+.img_product3 {
+    height: 150px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.name_product3 {
+    padding-left: 20px;
+    color: aliceblue;
+}
+.tip_product3 {
+    padding-left: 20px;
+    color: aliceblue;
+}
+.sale_product3 {
+    display: flex;
+    padding-left: 20px;
+}
+.price_product3 {
+    margin-top: 10px;
+    color: aliceblue;
+}
+.botton_buy3 {
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.buy_product3 {
+    width: 40px;
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    padding-left: 20px;
+    padding: 5px 15px 5px;
+    display: block;
+    background-color: coral;
+    border-radius: 5px;
+}
+/*clother*/
+.clother_catalog {
+    margin-top: 150px;
+    width: 1000px;
+    height: 1000px;
+    margin-left: 300px;
+    background-image: url(../img/product_bgi2.jpg);
+    border-style: inset;
+    border-color: gray;
+}
+.clother {
+}
+.h1_clother_zagolovok {
+    
+    font-family: "Lucida Sans";
+    padding-left: 380px;
+    font-size: 32px;
+    color: aliceblue;
+}
+.h1_clother_man{
+    font-family: "Lucida Sans";
+    padding-left: 40px;
+    font-size: 32px;
+    color: aliceblue;
+}
+.clother_menu{
+    margin-top: 40px;
+    margin-right: 300px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.clother1 {
+    margin-top: 50px;
+    margin-left: 30px;
+    border-style: solid;
+    border-color: coral;
+    width: 200px;
+    height: 290px;
+}
+.a_clother1 {
+    display: block;
+    padding-top: 10px;
+}
+.img_clother1 {
+    padding-left: 20px;
+}
+.name_clother1 {
+    padding-left: 20px;
+    color: aliceblue;
+}
+.tip_clother1 {
+    padding-left: 20px;
+    color: aliceblue;
+}
+.sale_clother1 {
+    display: flex;
+    padding-left: 20px;
+}
+.price_clother1 {
+    margin-top: 10px;
+    color: aliceblue;
+}
+/*Women clother*/
+.women_clother {
+    display: block;
+}
+.h1_clother {
+    font-family: "Lucida Sans";
+    padding-left: 40px;
+    font-size: 32px;
+    color: aliceblue;
+    margin-top: 100px;
+    margin-bottom: -20px;
+}
+.clother_menu {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 0;
+}
+/*footer*/
+.footer{
+    margin-top: 100px;
+}
+.flooter__text {
+    display: flex;
+    min-width: 1080px;
+    min-height: 100px;
+    background-color: coral;
+}
+.img__flooter {
+    margin-top: 40px;
+    margin-left: 600px;
+    width: 30px;
+    height: 30px;
+}
+.p__flooter {
+    margin-left: 10px;
+    margin-top: 45px;
+    color: aliceblue;
+    font-family: "Lucida Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
