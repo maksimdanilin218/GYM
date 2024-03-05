@@ -1,0 +1,576 @@
+body{
+    font-family: "Lucida Sans";
+    
+    background-repeat: no-repeat;
+    background-color: black;
+}
+/*Заголовок с мень и логотипом*/
+.header{
+    background-image: url(../img/header_foto.png);
+    margin-left: -25px;
+    max-width: 100%;
+    min-height: 1000px;
+    
+}
+.header__title{
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.btn {
+    display: grid;
+    grid-template-columns: repeat(5 ,1fr);
+    align-content: center;
+    width: 700px;
+    height: 50px;
+    margin-right: 30px;
+}
+.button1 {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 24px;
+    border-color: coral;
+}
+.button1:last-child{
+    padding: 5px 20px;
+}
+/*Text Transform Your Body*/
+.frame {
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 500px;
+    height: 230px;
+    background-color: #393939, #39393900;
+}
+.text_h1 {
+    color: white;
+    font-family: "Lucida Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.text_h2 {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: "Lucida Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/*Get start*/
+.grid__text {
+    width: 400px;
+    height: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 100px;
+    align-content: center;
+}
+.btn__start {
+    background-color: coral;
+    padding: 11px 20px 10px 20px;
+    width: 125px;
+    height: 25px;
+}
+.get__start {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+.btn__reviews {
+    border-style: solid;
+    border-color: coral;
+    padding: 10px 20px;
+    width: 170px;
+}
+
+.watch__reviews {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+/*container*/
+.contact {
+    margin-top: -110px;
+}
+.text__contact {
+    margin-left: -35px;
+}
+.icon {
+    margin-top: -47px;
+    margin-left: 40px;
+}
+.google {
+    padding: 0 20px;
+}
+
+/*Container с Фото*/
+.container{
+    background-image: url(../img/dark__foto.png);
+    max-width: 100%;
+    min-height: 1000px;
+    background-repeat: no-repeat;
+}
+/*zagolovok*/
+.info{
+    margin-top: 50px;
+    margin-left: 90px;
+}
+.zagolovok__h1{
+
+    color: aliceblue;
+    font-size: 40px;
+
+}
+.zagolovok {
+    color: coral;
+    font-size: 40px;
+}
+/*complex__grid*/
+.complex__grid {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3,2fr);
+}
+.info__item {
+    width: 400px;
+    height: 125px;
+    padding: 20px;
+    margin-top: 80px;
+}
+.icon__complex {
+    padding-left: 120px;
+    height: 60px;
+    width: 60px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.info__h1 {
+    padding-left: 100px;
+    color: coral;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: "Lucida Sans"
+}
+.info__p {
+    margin-top: 40px;
+    color: aliceblue;
+    font-size: 16px;
+    font-family: "Oswald",sans-serif;
+    font-weight: 200px;
+    font-family: "Lucida Sans";
+}
+/*info2*/
+.info2 {
+    margin-top: 200px;
+    margin-left: 90px;
+}
+.text__info2 {
+    color: aliceblue;
+    font-family: "Lucida Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.span__info2 {
+    color: coral;
+    font-family: "Lucida Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+/*container2*/
+
+.plan__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 60px;
+    justify-items: center;
+}
+.plan {
+    background-color: #1a1919;
+    width: 300px;
+    height: 450px;
+}
+.plan__h1 {
+    color: #FFF;
+    font-family: "Lucida Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 40px 123px 20px
+}
+.plan__p1 {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: "Lucida Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 20px 50px 35px;
+}
+.plan__h2 {
+    color: #FFF;
+    font-family: "Lucida Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 0 65px 20px;
+}
+.plan__span {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: "Lucida Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.plan__p2 {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: "Lucida Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 99px 41px;
+}
+/*join trainer*/
+.join__trainer {
+    margin-top: 200px;
+    margin-left: 90px;
+}
+.trainer {
+    color: aliceblue;
+    font-family: "Lucida Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.span__trainer {
+    color: coral;
+    font-family: "Lucida Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+/*grid trainer*/
+.grid__trainer {
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+    justify-items: center;
+    margin-top: 60px;
+    margin-right: 213px;
+    margin-left: 112px;
+}
+.img__trainer2 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+/*container3*/
+.container3 {
+    margin-left: 80px;
+    margin-top: 110px;
+}
+.why__join {
+    color: aliceblue;
+    font-family: "Lucida Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.span__join__us {
+    color: coral;
+    font-family: "Lucida Sans";
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+/*flex__list*/
+.flex__list {
+    display: flex;
+}
+.list__item {
+    margin-left: 90px;
+    width: 646px;
+    height: 236px;
+    background: linear-gradient(180deg, rgba(57, 57, 57, 0.25) 0%, rgba(57, 57, 57, 0.00) 100%);
+}
+.li{
+    color: coral;
+    padding: 20px 0;
+}
+.li__text {
+    color: aliceblue;
+    font-family: "Lucida Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+/*list__foto*/
+.list__foto {
+    display: grid;
+    grid-template-columns: (1,2fr);
+    margin-left: 800px;
+    margin-top: -250px;
+}
+.list2 {
+    margin-top: -40px;
+    margin-left: 200px;
+}
+/*end__info*/
+.container4 {
+    margin-top: 40px;
+    background: linear-gradient(180deg, rgba(57, 57, 57, 0.25) 0%, rgba(217, 217, 217, 0.00) 100%, rgba(57, 57, 57, 0.25) 100%);
+    min-height: 400px;
+    display: flex;
+}
+.End__info {
+    width: 300px;
+    height: 48px;
+    margin-top: 110px;
+}
+.end__logo{
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.support {
+    margin-left: 60px;
+    color: aliceblue;
+    font-family: "Lucida Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+/*Company*/
+.company {
+    width: 120px;
+    height: 48px;
+    margin-top: 110px;
+    margin-left: 220px;
+}
+.text__company {
+    color: aliceblue;
+    font-family: "Lucida Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.a__comp {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: "Lucida Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+.li__com{
+    padding: 10px 0;
+}
+/*contact*/
+.contact1 {
+    margin-top: -355px;
+    margin-left: 100px;
+}
+.text__contact1 {
+    margin-top: 478px;
+    margin-left: 30px;
+    color: aliceblue;
+    font-family: "Lucida Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.li__con {
+    padding: 10px 0;
+
+}
+.a__con {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: "Lucida Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+/*more*/
+.more {
+    margin-top: 110px;
+    margin-left: 100px;
+}
+.text__more {
+    margin-left: 20px;
+    color: aliceblue;
+    font-family: "Lucida Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.li__more {
+    padding: 10px 0;
+}
+.a__more {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: "Lucida Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+/*Tag*/
+.tag {
+    padding-top: 110px;
+    margin-left: 130px;
+}
+.text__tag {
+    margin-left: 20px;
+    color: aliceblue;
+    font-family: "Lucida Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.grid__tag {
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+}
+.li__tag {
+    background-color:  rgba(255, 255, 255, 0.50);
+    list-style: none;
+}
+.a__tag {
+    color: aliceblue;
+    font-family: "Lucida Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+.li__tag-1 {
+    background-color:  rgba(255, 255, 255, 0.50);
+    list-style: none;
+    width: 45px;
+    padding: 5px;
+}
+.li__tag-2 {
+    background-color:  rgba(255, 255, 255, 0.50);
+    list-style: none;
+    width: 90px;
+    padding: 5px 0 5px 18px;
+}
+.li__tag-3 {
+    background-color:  rgba(255, 255, 255, 0.50);
+    list-style: none;
+    margin-left: 15px;
+    padding: 5px 0 5px 13px ;
+}
+.li__tag-4 {
+    background-color:  rgba(255, 255, 255, 0.50);
+    list-style: none;
+    margin-top: 10px;
+    width: 65px;
+    padding: 5px 5px 5px 10px;
+}
+.li__tag-5 {
+    background-color:  rgba(255, 255, 255, 0.50);
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 50px;
+    padding: 5px 0 5px 10px;
+}
+.li__tag-6 {
+    background-color:  rgba(255, 255, 255, 0.50);
+    list-style: none;
+    margin-top: 10px;
+    width: 80px;
+    padding: 5px 0 5px 10px;
+}
+.li__tag-7 {
+    background-color:  rgba(255, 255, 255, 0.50);
+    list-style: none;
+    margin-top: 10px;
+    width: 50px;
+    padding: 5px 0 5px 10px;
+}
+.li__tag-8 {
+    background-color:  rgba(255, 255, 255, 0.50);
+    list-style: none;
+    margin-top: 10px;
+    width: 80px;
+    padding: 5px 0 5px 10px;
+}
+/*flooter*/
+.flooter__text {
+    display: flex;
+    min-width: 1080px;
+    min-height: 100px;
+    background-color: coral;
+}
+.img__flooter {
+    margin-top: 40px;
+    margin-left: 600px;
+    width: 30px;
+    height: 30px;
+}
+.p__flooter {
+    margin-left: 10px;
+    margin-top: 45px;
+    color: aliceblue;
+    font-family: "Lucida Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/*Заголовок с новинками*/
+
+.h1_zag {
+    font-size: 34px;
+    font-family: "Lucida Sans";
+    margin-top: 150px;
+    margin-left: 90px;
+    width: 450px;
+    height: 150px;
+    color: aliceblue;
+}
+.sport_pit{
+    color: chocolate;
+}
+.button_new {
+    border-radius: 5px;
+    margin-left: 90px;
+    width: 210px;
+    height: 55px;
+    background-color: coral;
+}
+.new__text{
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Lucida Sans";
+    font-size: 18px;
+    padding: 15px 18px 15px 18px;
+}
