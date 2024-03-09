@@ -18,10 +18,10 @@ body{
 }
 .logo {
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 .btn {
-    margin-top: 20px;
+    margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(5 ,1fr);
     align-content: center;
@@ -72,7 +72,7 @@ body{
 .grid_product {
     margin-top: 150px;
     width: 1000px;
-    height: 460px;
+    height: 520px;
     margin-left: 300px;
     background-image: url(../img/product_bgi2.jpg);
     border-style: inset;
@@ -229,11 +229,26 @@ body{
     background-color: coral;
     border-radius: 5px;
 }
+.btn_see_more {
+    margin-left: 765px;
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    background-color: coral;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+.a_see_more {
+    color: aliceblue;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
 /*clother*/
 .clother_catalog {
     margin-top: 150px;
     width: 1000px;
-    height: 1000px;
+    height: 1140px;
     margin-left: 300px;
     background-image: url(../img/product_bgi2.jpg);
     border-style: inset;
@@ -242,23 +257,24 @@ body{
 .clother {
 }
 .h1_clother_zagolovok {
-    
     font-family: "Lucida Sans";
     padding-left: 380px;
     font-size: 32px;
     color: aliceblue;
+    margin-bottom: 0;
 }
 .h1_clother_man{
     font-family: "Lucida Sans";
     padding-left: 40px;
     font-size: 32px;
     color: aliceblue;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
-.clother_menu{
-    margin-top: 40px;
-    margin-right: 300px;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+.clother_man{
+    display: flex;
+    margin-left: 90px;
+    
 }
 .clother1 {
     margin-top: 50px;
@@ -266,7 +282,7 @@ body{
     border-style: solid;
     border-color: coral;
     width: 200px;
-    height: 290px;
+    height: 300px;
 }
 .a_clother1 {
     display: block;
@@ -293,7 +309,12 @@ body{
 }
 /*Women clother*/
 .women_clother {
-    display: block;
+    
+}
+.clother_woman{
+    display: flex;
+    margin-left: 90px;
+    margin-top: 30px;
 }
 .h1_clother {
     font-family: "Lucida Sans";

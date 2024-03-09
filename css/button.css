@@ -164,3 +164,8 @@
 .buy_product3:hover{
     color: black;
 }
+/*shop btn_see_more*/
+.a_see_more:hover {
+    color: black;
+    transition: 0.5s;
+}
