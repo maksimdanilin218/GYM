@@ -102,10 +102,24 @@ body{
 }
 .icon {
     margin-top: -47px;
-    margin-left: 40px;
+    margin-left: 20px;
 }
-.google {
-    padding: 0 20px;
+.instagram{
+    fill: darkmagenta;
+    width: 40px;
+    height: 40px;
+}
+.facebook{
+    fill: blue;
+    width: 40px;
+    height: 40px;
+    padding-left: 10px;
+}
+.youtube{
+    fill: red;
+    width: 40px;
+    height: 40px;
+    padding-left: 10px;
 }
 
 /*Container с Фото*/
@@ -199,7 +213,36 @@ body{
     background-color: #1a1919;
     width: 300px;
     height: 450px;
+    margin-top: 20px;
 }
+.plan2{
+    background-color: #1a1919;
+    width: 300px;
+    height: 450px;
+    margin-top: -30px;
+}
+.popular_container {
+    width: 160px;
+    height: 30px;
+    background-color: coral;
+    border-radius: 30px;
+    margin-left: 60px;
+    margin-top: -30px;
+}
+.recomed {
+    width: 40px;
+    height: 40px;
+    fill: gold;
+    margin-left: 170px;
+    margin-top: -55px;
+}
+
+.h1_popular {
+    color: aliceblue;
+    padding-left: 30px;
+    font-size: 26px;
+}
+
 .plan__h1 {
     color: #FFF;
     font-family: "Lucida Sans";
