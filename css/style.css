@@ -374,6 +374,8 @@ body{
     margin-top: -40px;
     margin-left: 200px;
 }
+/*button3*/
+
 /*end__info*/
 .container4 {
     margin-top: 40px;
@@ -617,7 +619,7 @@ body{
     font-size: 18px;
     padding: 15px 18px 15px 18px;
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 415px) {
     
     .logotip{
         margin-left: 0px;
@@ -790,10 +792,63 @@ body{
         margin-top: 30px;
         margin-bottom: 20px;
     }
-      
-}
-@media screen and (max-width: 375px) {
-    .button3{
+    .see__more2{
         margin-left: 30px;
     }
+    /*container4*/
+    .container4{
+        display: block;
+    }
+    .support{
+        font-size: 18px;
+        width: 230px;
+    }
+    .End__info{
+        width: auto;
+        height: auto;
+        margin-top: 0;
+    }
+    .company{
+        width: auto;
+        height: auto;
+        margin-top: 60;
+        margin-left: 100px;
+    }
+    .contact1{
+        margin-top: -350px;
+        margin-left: 90px;
+    }
+    .tag{
+        margin: 0;
+        padding-top: 50px;
+    }
+    .text__tag{
+        margin-left: 80px;
+        margin-bottom: 20px;
+    }
+    .grid__tag{
+        gap: 0px;
+        grid-template-columns: repeat(3,3fr);
+        width: 50px;
+        margin-left: 20px;
+    }
+    .li__tag-1{
+        width: 30px;
+    }
+    .li__tag-3{
+        padding-right: 10px;
+    }
+    /*flooter*/
+    .flooter{
+        width: auto;
+        margin-left: -3px;
+    }
+    .flooter__text{
+
+    }
+    .img__flooter{
+        margin-left: 30px;
+    }
+    
+    
 }
