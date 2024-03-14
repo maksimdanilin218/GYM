@@ -7,6 +7,7 @@ body{
 /*Заголовок с мень и логотипом*/
 .header{
     background-image: url(../img/header_foto.png);
+    background-repeat: no-repeat;
     margin-left: -25px;
     max-width: 100%;
     min-height: 1000px;
@@ -33,6 +34,9 @@ body{
     text-decoration: none;
     font-size: 24px;
     border-color: coral;
+}
+.header__title{
+    
 }
 .join_us_btn{
     color: aliceblue;
@@ -640,37 +644,41 @@ body{
     }
     .header__title{
         margin-top: 20px;
-        justify-content: flex-start;
+        justify-content: space-between;
+        gap: 100px;
+        width: 600px;
     }
     .logo{
-        margin-left: 30px
+        margin-left: 50px
     }
     .logotip{
         margin-left: 0px;
-        width: 50px;
-        height: 40px;
+        width: 100px;
+        height: 80px;
     }
     .info{
         margin-top: 20px;
         display: grid;
-        grid-template-columns: repeat(4,2fr); 
-        margin-left: 20px;
+        grid-template-columns: repeat(5,1fr); 
     }
     .join_us_btn {
-        width: 40px;
+        width: 50px;
         height: 15px;
         padding-left: 5px;
     }
     .join_us2 {
-        font-size: 10px;
+        font-size: 13px;
     }
     
     .btn{
+        margin-top: 30px;
+        margin-left: 0;
         width: 30px;
+        height: 20px;
         gap: 10px;
     }
     .button1{
-        font-size: 11px;
+        font-size: 13px;
     }
     .button1:last-child{
         margin: 0;
@@ -680,18 +688,21 @@ body{
         width: 40px;
     }
     .frame{
-        margin-left: 80px;
+        margin-left: 250px;
+        width: 828px;
+        text-align: center;
     }
     .text_h1{
         font-size: 14px;
+        width: 240px;
     }
     .text_h2{
         font-size: 12px;
-        width: 220px;
+        width: 240px;
     }
     /*button get start*/
     .grid__text{
-        margin-left: 40px;
+        margin-left: 260px;
         width: 300px;
         display: flex;
     }
@@ -741,14 +752,15 @@ body{
     }
     /*container info*/
     .zagolovok__h1{
-        font-size: 22px;
-        margin-top: 40px;
+        font-size: 26px;
+        margin-top: 70px;
+        margin-left: 250px;
     }
     .zagolovok{
         font-size: 22px;
     }
     .complex__grid{
-        grid-template-columns: repeat(1,6fr);
+        grid-template-columns: repeat(2,4fr);
         margin: 0;
         width: auto;
         margin-right: 400px;
@@ -781,11 +793,11 @@ body{
     }
     /*plan*/
     .container2{
-        margin-left: 0;
-        margin-right: 400px;
+        margin-left:0px;
+
     }
     .plan__grid{
-        grid-template-columns: repeat(1,3fr);  
+        grid-template-columns: repeat(1,1fr);  
     }
     .plan{
         width: 250px;
@@ -823,20 +835,22 @@ body{
         font-size: 22px;
     }
     .grid__trainer{
-        grid-template-columns: repeat(1,3fr);
-        margin-left: 10px;
+    }
+    .foto__trainer{
+        grid-template-columns: repeat(2,2fr);
+        width: 600px;
     }
     .img__trainer1{
         width: 240px;
     }
     .img__trainer2{
-        margin-top: 40px;
-        margin-bottom: 40px;
         margin-left: 0;
         width: 240px;
     }
     .img__trainer3{
         width: 240px;
+        margin-left: 120px;
+        margin-top: 30px;
     }
     .btn__see__more2{
         margin-left: 0;
@@ -892,20 +906,25 @@ body{
         width: auto;
         height: auto;
         margin-top: 0;
+        margin-left: 200px;
     }
     .company{
         width: auto;
         height: auto;
         margin-top: 60;
-        margin-left: 100px;
+        margin-left: 300px;
     }
     .contact1{
         margin-top: -350px;
-        margin-left: 90px;
+        margin-left: 280px;
+    }
+    .more{
+        margin-left: 290px;
     }
     .tag{
         margin: 0;
         padding-top: 50px;
+        margin-left: 200px;
     }
     .text__tag{
         margin-left: 80px;
@@ -934,7 +953,7 @@ body{
 
     }
     .img__flooter{
-        margin-left: 30px;
+        margin-left: 220px;
     }
     
     
