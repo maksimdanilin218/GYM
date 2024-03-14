@@ -34,6 +34,21 @@ body{
     font-size: 24px;
     border-color: coral;
 }
+.join_us_btn{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 24px;
+    border-color: coral;
+    border-style: solid;
+    width: 110px;
+    height: 30px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+.join_us2{
+    text-decoration: none;
+    color: aliceblue;
+}
 .button1:last-child{
     padding: 5px 20px;
 }
@@ -570,7 +585,7 @@ body{
 /*flooter*/
 .flooter__text {
     display: flex;
-    min-width: auto;
+    width: auto;
     min-height: 100px;
     background-color: coral;
 }
@@ -620,18 +635,36 @@ body{
     padding: 15px 18px 15px 18px;
 }
 @media screen and (max-width: 828px) {
-    
+    .header{
+        background-image: none;
+    }
+    .header__title{
+        margin-top: 20px;
+        justify-content: flex-start;
+    }
+    .logo{
+        margin-left: 30px
+    }
     .logotip{
         margin-left: 0px;
-        width: 70px;
-        height: 60px;
+        width: 50px;
+        height: 40px;
     }
     .info{
         margin-top: 20px;
-        margin-right: 600px;
-        margin-left: 15px;
-        
+        display: grid;
+        grid-template-columns: repeat(4,2fr); 
+        margin-left: 20px;
     }
+    .join_us_btn {
+        width: 40px;
+        height: 15px;
+        padding-left: 5px;
+    }
+    .join_us2 {
+        font-size: 10px;
+    }
+    
     .btn{
         width: 30px;
         gap: 10px;
@@ -647,7 +680,7 @@ body{
         width: 40px;
     }
     .frame{
-        margin-left: 100px;
+        margin-left: 80px;
     }
     .text_h1{
         font-size: 14px;
@@ -658,24 +691,30 @@ body{
     }
     /*button get start*/
     .grid__text{
-        margin-left: 70px;
-        gap: 10px;
+        margin-left: 40px;
         width: 300px;
+        display: flex;
     }
     .btn__start {
-        width: 80px;
-        height: 15px;
+        width: 70px;
+        height: 10px;
+        margin-left: 0px;
     }
     .get__start {
         font-size: 12px;
+        width: auto;
+        margin-bottom: 5px;
     }
     .btn__reviews {
-        width: 100px;
-        height: 15px;
-        margin-left: 10px;
+        width: 90px;
+        height: 8px;
+        margin-left: 5px;
     }
     .watch__reviews {
+        padding-left: 5px;
         font-size: 12px;
+        width: auto;
+        height: auto;
     }
     /*contact*/
     .contact__svg{
@@ -697,6 +736,9 @@ body{
         width: 30px;
         height: 30px;
     }
+    .container{
+        background-image: none;
+    }
     /*container info*/
     .zagolovok__h1{
         font-size: 22px;
@@ -710,16 +752,20 @@ body{
         margin: 0;
         width: auto;
         margin-right: 400px;
-        margin-left: 30px;
+        margin-left: 0px;
     }
     .info__item{
         margin-bottom: 30px;
     }
-    .info__h1{
+    .icon__complex{
         padding-left: 80px;
     }
+    .info__h1{
+        padding-left: 50px;
+    }
     .info__p{
-        width: 280px;
+        width: 240px;
+        height: auto;
         font-size: 14px;
         margin-top: 5px;
     }
@@ -739,10 +785,35 @@ body{
         margin-right: 400px;
     }
     .plan__grid{
-        grid-template-columns: repeat(1,3fr);
+        grid-template-columns: repeat(1,3fr);  
+    }
+    .plan{
+        width: 250px;
+        height: 450px;
+    }
+    .popular_container{
+        margin-left: 30px;
     }
     .plan2{
         margin-top: 30px;
+        width: 250px;
+        height: 470px;
+        margin-left: 5px;
+    }
+    .plan__h1{
+        padding-left: 110px;
+    }
+    .plan__p1{
+        padding-left: 80px;
+    }
+    .plan__h2{
+        padding-left: 85px;
+    }
+    .plan__href{
+        mask-type: -10px    ;
+    }
+    .plan__a{
+       padding-left: 20px;
     }
     /*join trener*/
     .join__trainer{
@@ -756,11 +827,21 @@ body{
     }
     .grid__trainer{
         grid-template-columns: repeat(1,3fr);
-        margin-left: 30px;
+        margin-left: 10px;
+    }
+    .img__trainer1{
+        width: 240px;
     }
     .img__trainer2{
         margin-top: 40px;
         margin-bottom: 40px;
+        margin-left: 0;
+        width: 240px;
+    }
+    .img__trainer3{
+        width: 240px;
+    }
+    .btn__see__more2{
         margin-left: 0;
     }
     /*container3*/
