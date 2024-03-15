@@ -1,6 +1,6 @@
 body{
     font-family: "Lucida Sans";
-    
+    width: auto;
     background-repeat: no-repeat;
     background-color: black;
 }
@@ -639,6 +639,7 @@ body{
     padding: 15px 18px 15px 18px;
 }
 @media screen and (max-width: 828px) {
+
     .header{
         background-image: none;
     }
@@ -646,20 +647,28 @@ body{
         margin-top: 20px;
         justify-content: space-between;
         gap: 100px;
-        width: 600px;
+        width: 150px;
+    }
+    .header_btn{
+        margin-left:  -77px;
+        height: 30px;
+        margin-top: 30px;
     }
     .logo{
         margin-left: 50px
     }
     .logotip{
         margin-left: 0px;
-        width: 100px;
-        height: 80px;
+        width: 80px;
+        height: 60px;
     }
-    .info{
-        margin-top: 20px;
+    .btn_info{
         display: grid;
         grid-template-columns: repeat(5,1fr); 
+        margin-left: 0;
+        width: 30px;
+        height: 20px;
+        gap: 10px;
     }
     .join_us_btn {
         width: 50px;
@@ -668,14 +677,6 @@ body{
     }
     .join_us2 {
         font-size: 13px;
-    }
-    
-    .btn{
-        margin-top: 30px;
-        margin-left: 0;
-        width: 30px;
-        height: 20px;
-        gap: 10px;
     }
     .button1{
         font-size: 13px;
@@ -688,7 +689,7 @@ body{
         width: 40px;
     }
     .frame{
-        margin-left: 250px;
+        margin-left: 100px;
         width: 828px;
         text-align: center;
     }
@@ -702,7 +703,7 @@ body{
     }
     /*button get start*/
     .grid__text{
-        margin-left: 260px;
+        margin-left: 100px;
         width: 300px;
         display: flex;
     }
@@ -754,17 +755,16 @@ body{
     .zagolovok__h1{
         font-size: 26px;
         margin-top: 70px;
-        margin-left: 250px;
+        margin-left: 100px;
     }
     .zagolovok{
         font-size: 22px;
     }
     .complex__grid{
-        grid-template-columns: repeat(2,4fr);
+        grid-template-columns: repeat(1,6fr);
         margin: 0;
         width: auto;
-        margin-right: 400px;
-        margin-left: 0px;
+        margin-left: 60px;
     }
     .info__item{
         margin-bottom: 30px;
@@ -826,7 +826,7 @@ body{
     }
     /*join trener*/
     .join__trainer{
-        margin-left: 30px;
+        margin-left: 100px;
     }
     .trainer{
         font-size: 22px;
@@ -835,22 +835,26 @@ body{
         font-size: 22px;
     }
     .grid__trainer{
+        grid-template-columns: repeat(1,3fr);
+        margin-right: 30px;
     }
     .foto__trainer{
-        grid-template-columns: repeat(2,2fr);
-        width: 600px;
     }
     .img__trainer1{
         width: 240px;
+        margin-left: -30px;
     }
     .img__trainer2{
+        margin-top: 20px;
         margin-left: 0;
         width: 240px;
+        margin-left: -30px;
     }
     .img__trainer3{
         width: 240px;
-        margin-left: 120px;
+        margin-left: 0px;
         margin-top: 30px;
+        margin-left: -30px; 
     }
     .btn__see__more2{
         margin-left: 0;
@@ -906,25 +910,25 @@ body{
         width: auto;
         height: auto;
         margin-top: 0;
-        margin-left: 200px;
+        margin-left: 50px;
     }
     .company{
         width: auto;
         height: auto;
         margin-top: 60;
-        margin-left: 300px;
+        margin-left: 150px;
     }
     .contact1{
         margin-top: -350px;
-        margin-left: 280px;
+        margin-left: 140px;
     }
     .more{
-        margin-left: 290px;
+        margin-left: 150px;
     }
     .tag{
         margin: 0;
         padding-top: 50px;
-        margin-left: 200px;
+        margin-left: 50px;
     }
     .text__tag{
         margin-left: 80px;
@@ -953,7 +957,7 @@ body{
 
     }
     .img__flooter{
-        margin-left: 220px;
+        margin-left: 70px;
     }
     
     
