@@ -262,6 +262,15 @@ body{
     padding-left: 10px;
     text-decoration: none;
 }
+.btn_see_more1{
+    margin-left: 765px;
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    background-color: coral;
+    padding-top: 10px;
+    border-radius: 20px;
+}
 
 /*clother*/
 .clother_catalog {
@@ -351,6 +360,7 @@ body{
 /*footer*/
 .footer{
     margin-top: 100px;
+    width: auto;
 }
 .flooter__text {
     display: flex;
@@ -451,7 +461,7 @@ body{
     .grid_product {
         margin-left: 50px;
         width: 350px;
-        height: 1170px;
+        height: 1230px;
     }
     .grit_text {
     }
@@ -493,7 +503,13 @@ body{
         grid-template-columns: repeat(1,3fr);
     }
     .btn_see_more{
-        margin-left: 30px;
+        margin-left: 200px;
+        
+    }
+    .btn_see_more1{
+        margin-top: 730px;
+        margin-left: 100px;
+
     }
     .women_clother{
         width: 180px;
@@ -509,6 +525,7 @@ body{
         width: auto;
     }
     .flooter__text {
+        width: 420px;
         
     }
     .img__flooter {
