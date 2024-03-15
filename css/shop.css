@@ -8,6 +8,7 @@ body{
 .header{
     background-image: url(../img/header_foto.png);
     background-repeat: no-repeat;
+    margin-left: -25px;
     max-width: 100%;
     min-height: 1000px;
     
@@ -16,12 +17,15 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.header_btn{
+    margin-top: 40px;
+    height: 40px;
+}
 .logo {
     margin-top: 20px;
-    margin-left: 30px;
+    margin-left: 50px;
 }
-.btn {
-    margin-top: 50px;
+.btn_info {
     display: grid;
     grid-template-columns: repeat(5 ,1fr);
     align-content: center;
@@ -35,8 +39,23 @@ body{
     font-size: 24px;
     border-color: coral;
 }
-.button1:last-child{
-    padding: 5px 20px;
+.header__title{
+    
+}
+.join_us_btn{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 24px;
+    border-color: coral;
+    border-style: solid;
+    width: 110px;
+    height: 30px;
+    text-align: center;
+    border-radius: 15px;
+}
+.join_us2{
+    text-decoration: none;
+    color: aliceblue;
 }
 /*Заголовок с новинками*/
 .zag {
@@ -335,8 +354,8 @@ body{
 }
 .flooter__text {
     display: flex;
-    min-width: 1080px;
-    min-height: 100px;
+    width: auto;
+    height: 100px;
     background-color: coral;
 }
 .img__flooter {
@@ -354,4 +373,149 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+@media screen and (max-width: 828px) {
+    .header{
+        background-image: none;
+    }
+    .header__title{
+        margin-top: 20px;
+        justify-content: space-between;
+        gap: 100px;
+        width: 150px;
+    }
+    .header_btn{
+        margin-left:  -77px;
+        height: 30px;
+        margin-top: 30px;
+    }
+    .logo{
+        margin-left: 40px
+    }
+    .logotip{
+        margin-left: 0px;
+        width: 80px;
+        height: 60px;
+    }
+    .btn_info{
+        display: grid;
+        grid-template-columns: repeat(5,1fr); 
+        margin-left: 0;
+        width: 30px;
+        height: 20px;
+        gap: 10px;
+    }
+    .join_us_btn {
+        width: 60px;
+        height: 20px;
+        text-align: center;
+        font-size: 12px;
+        padding-top: 5px;
+        margin-top: -5px;
+
+    }
+    .join_us2 {
+        height: 20px;
+        font-size: 13px;
+        margin-top: -10px;
+        font-size: 12px;
+    }
+    .button1{
+        font-size: 13px;
+    }
+    .button1:last-child{
+        margin: 0;
+        margin-top: -1px;
+        height: 14px;
+        padding: 1px;
+        width: 40px;
+    }
+    /*zag*/
+    .zag {
+    }
+    .h1_zag {
+        width: 300px;
+        font-size: 24px;
+    }
+    .sport_pit {
+    }
+    .button_new {
+        border-radius: 15px;
+    }
+    .new__text {
+        padding: 0;
+        text-align: center;
+        padding-top: 15px;
+    }   
+    /*grid product*/
+    .grid_product {
+        margin-left: 50px;
+        width: 350px;
+        height: 1170px;
+    }
+    .grit_text {
+    }
+    .h1_sales {
+        padding: 0;
+        margin-left: 40px;
+    }
+    .catalog{
+        display: grid;
+        grid-template-columns: repeat(1,3fr);
+    }
+    .product{
+        margin-left: 70px;
+    }
+    .product2{
+        margin-left: 70px;
+    }
+    .product3{
+        margin-left: 70px;
+    }
+    /*clother catalog*/
+    .clother_catalog{
+        margin-left: 50px;
+        width: 350px;
+        height: 2560px;
+    }
+    .h1_clother_zagolovok{
+        padding: 0;
+        margin-left: 100px;
+    }
+    .h1_clother_man{
+        margin-top: 30px;
+        padding: 0;
+        margin-left: 10px;
+    }
+    .clother_man{
+        margin-left: 30px;
+        display: grid;
+        grid-template-columns: repeat(1,3fr);
+    }
+    .btn_see_more{
+        margin-left: 30px;
+    }
+    .women_clother{
+        width: 180px;
+        margin-left: -20px;
+    }
+    .clother_woman{
+        display: grid;
+        grid-template-columns: repeat(1,3fr);
+        margin-left: 30px;
+    }
+    /*flooter*/
+    .footer {
+        width: auto;
+    }
+    .flooter__text {
+        
+    }
+    .img__flooter {
+        margin-left: 60px;
+    }
+    .p__flooter {
+    }
+    
+    
 }
