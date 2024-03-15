@@ -782,7 +782,7 @@ body{
         grid-template-columns: repeat(1,6fr);
         margin: 0;
         width: 300px;
-        margin-left: 60px;
+        margin-left: 80px;
     }
     .info__item{
         margin-bottom: 30px;
@@ -804,6 +804,7 @@ body{
         width: 240px;
         height: 60px;
         font-size: 14px;
+        text-align: center
     }
     /*info2*/
     .info2{
