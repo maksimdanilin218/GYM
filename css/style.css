@@ -17,11 +17,15 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.header_btn{
+    margin-top: 40px;
+    height: 40px;
+}
 .logo {
     margin-top: 20px;
     margin-left: 50px;
 }
-.btn {
+.btn_info {
     display: grid;
     grid-template-columns: repeat(5 ,1fr);
     align-content: center;
@@ -46,7 +50,7 @@ body{
     border-style: solid;
     width: 110px;
     height: 30px;
-    padding-left: 20px;
+    text-align: center;
     border-radius: 20px;
 }
 .join_us2{
@@ -83,7 +87,6 @@ body{
 /*Get start*/
 .grid__text {
     width: 400px;
-    height: 50px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     margin-left: 100px;
@@ -91,9 +94,11 @@ body{
 }
 .btn__start {
     background-color: coral;
-    padding: 11px 20px 10px 20px;
-    width: 125px;
-    height: 25px;
+    width: 180px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 20px;
 }
 .get__start {
     color: aliceblue;
@@ -103,8 +108,11 @@ body{
 .btn__reviews {
     border-style: solid;
     border-color: coral;
-    padding: 10px 20px;
-    width: 170px;
+    width: 180px;
+    text-align: center;
+    padding-top: 10px;
+    height: 30px;
+    border-radius: 20px;
 }
 
 .watch__reviews {
@@ -170,18 +178,19 @@ body{
     grid-template-columns: repeat(3,2fr);
 }
 .info__item {
-    width: 400px;
-    height: 125px;
-    padding: 20px;
+    width: 350px;
+    height: 150px;
     margin-top: 80px;
 }
 .icon__complex {
-    padding-left: 120px;
     height: 60px;
     width: 60px;
-    font-weight: 500;
-    text-transform: uppercase;
-    margin-bottom: 5px;
+    margin-left: 150px;
+}
+.icon__cycling{
+    height: 60px;
+    width: 60px;
+    margin-left: 120px;
 }
 .info__h1 {
     padding-left: 100px;
@@ -192,11 +201,9 @@ body{
     font-family: "Lucida Sans"
 }
 .info__p {
-    margin-top: 40px;
     color: aliceblue;
     font-size: 16px;
     font-family: "Oswald",sans-serif;
-    font-weight: 200px;
     font-family: "Lucida Sans";
 }
 /*info2*/
@@ -231,13 +238,13 @@ body{
 .plan {
     background-color: #1a1919;
     width: 300px;
-    height: 450px;
+    height: 400px;
     margin-top: 20px;
 }
 .plan2{
     background-color: #1a1919;
     width: 300px;
-    height: 450px;
+    height: 400px;
     margin-top: -30px;
 }
 .popular_container {
@@ -245,7 +252,7 @@ body{
     height: 30px;
     background-color: coral;
     border-radius: 30px;
-    margin-left: 60px;
+    margin-left: 40px;
     margin-top: -30px;
 }
 .recomed {
@@ -277,17 +284,30 @@ body{
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
-    padding: 20px 50px 35px;
+    margin-left: 60px;
 }
 .plan__h2 {
     color: #FFF;
     font-family: "Lucida Sans";
     font-size: 24px;
     font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    padding: 0 65px 20px;
+    margin-left: 80px;
+}
+.plan__href1{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 20px;
+    width: 120px;
+    text-align: center;
+    margin-left: 80px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: coral;
+}
+.plan__a1{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
 }
 .plan__span {
     color: rgba(255, 255, 255, 0.50);
@@ -301,10 +321,8 @@ body{
     color: rgba(255, 255, 255, 0.50);
     font-family: "Lucida Sans";
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding: 0 99px 41px;
+    margin-left: 100px;
+    margin-bottom: 40px;
 }
 /*join trainer*/
 .join__trainer {
@@ -655,7 +673,7 @@ body{
         margin-top: 30px;
     }
     .logo{
-        margin-left: 50px
+        margin-left: 40px
     }
     .logotip{
         margin-left: 0px;
@@ -671,9 +689,12 @@ body{
         gap: 10px;
     }
     .join_us_btn {
-        width: 50px;
-        height: 15px;
-        padding-left: 5px;
+        width: 60px;
+        height: 20px;
+        text-align: center;
+        padding-top: 5px;
+        margin-top: -5px;
+
     }
     .join_us2 {
         font-size: 13px;
@@ -690,43 +711,37 @@ body{
     }
     .frame{
         margin-left: 100px;
-        width: 828px;
+        width: auto;
         text-align: center;
     }
     .text_h1{
-        font-size: 14px;
+        font-size: 18px;
         width: 240px;
     }
     .text_h2{
-        font-size: 12px;
+        font-size: 16px;
         width: 240px;
     }
     /*button get start*/
     .grid__text{
-        margin-left: 100px;
+        margin-left: 80px;
+        width: 40px;
         width: 300px;
         display: flex;
+        gap: 10px;
     }
-    .btn__start {
-        width: 70px;
-        height: 10px;
+    .btn__start { 
         margin-left: 0px;
+        
     }
     .get__start {
-        font-size: 12px;
-        width: auto;
-        margin-bottom: 5px;
+        font-size: 16px;
     }
     .btn__reviews {
-        width: 90px;
-        height: 8px;
-        margin-left: 5px;
+          
     }
     .watch__reviews {
-        padding-left: 5px;
-        font-size: 12px;
-        width: auto;
-        height: auto;
+        font-size: 15px;
     }
     /*contact*/
     .contact__svg{
@@ -753,47 +768,59 @@ body{
     }
     /*container info*/
     .zagolovok__h1{
-        font-size: 26px;
+        font-size: 30px;
         margin-top: 70px;
         margin-left: 100px;
+        width: 300px;
+        margin-bottom: 0;
     }
     .zagolovok{
-        font-size: 22px;
+        font-size: 30px;
     }
     .complex__grid{
         grid-template-columns: repeat(1,6fr);
         margin: 0;
-        width: auto;
+        width: 300px;
         margin-left: 60px;
     }
     .info__item{
         margin-bottom: 30px;
+        width: 300px;
     }
     .icon__complex{
-        padding-left: 80px;
+        margin-left: 75px;
+    }
+    .icon__cycling{
+        margin-left: 75px;
     }
     .info__h1{
-        padding-left: 50px;
+        text-align: center;
+        padding: 0;
+        width: 200px;
+        margin-left: 10px;
     }
     .info__p{
         width: 240px;
-        height: auto;
+        height: 60px;
         font-size: 14px;
-        margin-top: 5px;
     }
     /*info2*/
     .info2{
         margin-left: 30px;
+        width: 280px;
     }
     .text__info2{
-        font-size: 22px;
+        font-size: 26px;
+        width: auto;
     }
     .span__info2{
-        font-size: 22px;
+        font-size: 26px;
+        width: auto;
     }
     /*plan*/
     .container2{
-        margin-left:0px;
+        width: 350px;
+        margin-left: 20px;
 
     }
     .plan__grid{
@@ -801,38 +828,49 @@ body{
     }
     .plan{
         width: 250px;
-        height: 450px;
+        height: 400px;
     }
     .plan2{
         margin-top: 30px;
         width: 250px;
-        height: 470px;
+        height: 400px;
         margin-left: 5px;
     }
     .plan__h1{
-        padding-left: 110px;
+        padding: 0%;
+        margin-top: 40px;
+        width: 40px;
+        height: 40px;
+        margin-bottom: 0;
+        margin-left: 110px;
     }
     .plan__p1{
-        padding-left: 80px;
+        margin-left: 50px;
+        margin-bottom: 30px;
+    }
+    .plan__p2{
+        margin-left: 90px;
     }
     .plan__h2{
-        padding-left: 85px;
+        margin-left: 50px;
     }
-    .plan__href{
-        mask-type: -10px    ;
+    .plan__href1{
+        margin-left: 60px;
     }
     .plan__a{
        padding-left: 20px;
+    }
+    .popular_container{
     }
     /*join trener*/
     .join__trainer{
         margin-left: 100px;
     }
     .trainer{
-        font-size: 22px;
+        font-size: 26px;
     }
     .span__trainer{
-        font-size: 22px;
+        font-size: 26px;
     }
     .grid__trainer{
         grid-template-columns: repeat(1,3fr);
@@ -910,25 +948,25 @@ body{
         width: auto;
         height: auto;
         margin-top: 0;
-        margin-left: 50px;
+        margin-left: 20px;
     }
     .company{
         width: auto;
         height: auto;
         margin-top: 60;
-        margin-left: 150px;
+        margin-left: 120px;
     }
     .contact1{
         margin-top: -350px;
-        margin-left: 140px;
+        margin-left: 110px;
     }
     .more{
-        margin-left: 150px;
+        margin-left: 120px;
     }
     .tag{
         margin: 0;
         padding-top: 50px;
-        margin-left: 50px;
+        margin-left: 30px;
     }
     .text__tag{
         margin-left: 80px;
